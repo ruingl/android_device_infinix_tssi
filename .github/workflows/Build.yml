@@ -96,7 +96,7 @@ jobs:
       run: |
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
-        lunch twrp_KL4-eng
+        lunch twrp_tssi-eng
         make clean
         mka vendorbootimage -j$(nproc --all)
       working-directory: ${{ steps.workspace.outputs.path }}
