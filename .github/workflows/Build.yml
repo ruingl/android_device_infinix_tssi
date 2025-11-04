@@ -107,7 +107,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          ${{ steps.workspace.outputs.path }}/out/target/product/KL4/vendor_boot.img
+          ${{ steps.workspace.outputs.path }}/out/target/product/tssi/vendor_boot.img
         name: "X6725-${{ github.run_id }}"
         tag_name: ${{ github.run_id }}
         body: "TWRP build for X6725 test"
