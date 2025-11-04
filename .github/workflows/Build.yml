@@ -79,8 +79,8 @@ jobs:
     # Copies the contents of the current repository (the device tree) into the correct path within the AOSP source.
     - name: Copy device tree
       run: |
-        mkdir -p device/tecno/KL4
-        rsync -a --exclude='.git/' --exclude='workspace/' ${{ github.workspace }}/ device/tecno/KL4/
+        mkdir -p device/infinix/tssi
+        rsync -a --exclude='.git/' --exclude='workspace/' ${{ github.workspace }}/ device/infinix/tssi
       working-directory: ${{ steps.workspace.outputs.path }}
 
     # Step 9: Increase swap space
