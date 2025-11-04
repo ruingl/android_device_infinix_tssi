@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_tssi.mk
+    $(LOCAL_DIR)/twrp_tssi.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_tssi-user \
-    omni_tssi-userdebug \
-    omni_tssi-eng
+    twrp_tssi-user \
+    twrp_tssi-userdebug \
+    twrp_tssi-eng
