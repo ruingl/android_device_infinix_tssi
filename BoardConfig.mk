@@ -114,7 +114,7 @@ TW_LOAD_VENDOR_MODULES := true
 TW_HAS_ADB := true
 TW_HAS_MTP := true
 
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
 #logs
 TARGET_USES_LOGD := true
